@@ -10,7 +10,6 @@ page= pdfreader.getPage(31)
 text = page.extractText()
 print(text)
 # speaker.say("text")
-# name = "Dharmendra thagaiya"
 rate = speaker.getProperty('rate')   # getting details of current speaking rate
 print (rate)                        #printing current voice rate
 speaker.setProperty('rate', 125)
